@@ -204,7 +204,7 @@ header h1 {
 }
 
 .right img {
-  width: 100%;
+  width: 800px;
 }
 
 .left {
@@ -256,12 +256,16 @@ button.cta:hover {
 /*  -----    RESPONSIVENESS    -----  */
 
 @media (max-width:800px) {
+  .right img {
+    width: 500px;
+  }
   header,
   .left,
   .right {
       padding-left: 40px;
       padding-right: 40px;
   }
+  
 }
 
 @media (max-width: 650px) {
@@ -295,7 +299,7 @@ button.cta:hover {
   }
 
   .right img {
-      width: 80%;
+      width: 500px;
   }
 
   /* Nav Menu Responsiveness */
