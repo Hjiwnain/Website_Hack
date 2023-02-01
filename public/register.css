@@ -117,7 +117,9 @@ input {
   background-color: var(--primary-color);
   color: #f3f3f3;
 }
-
+.form-img img{
+  width: 686px;
+}
 /* Form */
 .form {
   width: clamp(320px, 30%, 430px);
@@ -182,6 +184,10 @@ input {
     border: 1px solid #ccc;
     border-radius: 0.35rem;
     padding: 1.5rem;
+  }
+  .form-img img{
+    width: 300px;
+margin-left: 133px;
   }
   .select{
     padding: 14px;
