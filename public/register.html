@@ -19,7 +19,7 @@
     </div>
 
 
-    <form method="post" class="form">
+    <form name="RegForm" method="post" class="form">
       <h1 class="text-center">Loan Repayment</h1>
       <div class="progressbar">
         <div class="progress" id="progress"></div>
@@ -40,7 +40,7 @@
       <div class="form-step form-step-active">
         <div class="input-group">
           <label for="username">Number of Maintainers</label>
-          <input type="number" name="nppm" id="username" required>
+          <input type="number" name="nppm" id="nppm" required>
         </div>
         <div class="input-group">
             <label for="ls">Loan Status</label>
@@ -58,7 +58,7 @@
           </div>
           <div class="input-group">
             <label for="username">Objective</label>
-            <select type="text" value="" name="objective" class="select" id="username" required>
+            <select type="text" value="" name="objective" class="select" id="objective" required>
               <option>Choose</option>
               <option>New Car Purchase</option>
               <option>Purchase of radio/television</option>
@@ -81,7 +81,7 @@
           </div>
         <div class="input-group">
           <label for="position">Amount</label>
-          <input type="number" name="amount" id="position" required>
+          <input type="number" name="amount" id="amount" required>
         </div>
         <div class="">
           <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
@@ -91,7 +91,7 @@
         <div class="input-group">
           <label for="phone">Guarantor</label>
 
-          <select type="text" value="" name="guarantor" class="select" id="phone" required>
+          <select type="text" value="" name="guarantor" class="select" id="guarantor" required>
             <option>Choose</option>
             <option>none</option>
             <option>gaurantor</option>
@@ -101,7 +101,7 @@
         </div>
         <div class="input-group">
             <label for="phone">Experience</label>
-            <select type="text" value="" name="experience" class="select" id="phone" required>
+            <select type="text" value="" name="experience" class="select" id="experience" required>
               <option>Choose</option>
               <option>between 1 and 4 years</option>
               <option>greater than 4 years</option>
@@ -113,7 +113,7 @@
           </div>
           <div class="input-group">
             <label for="phone">Marital Status</label>
-            <select type="text" value="" name="maritalStatus" class="select" id="phone" required>
+            <select type="text" value="" name="maritalStatus" class="select" id="maritalStatus" required>
               <option>Choose</option>
               <option>male and single</option>
               <option>female and divorced/seperated/married</option>
@@ -125,7 +125,7 @@
           </div>
         <div class="input-group">
           <label for="email">ExistingLoan</label>
-          <input type="number" name="existingLoan" id="email" required>
+          <input type="number" name="existingLoan" id="existingLoan" required>
         </div>
         <div class="btns-group">
           <a href="#" class="btn btn-prev">Previous</a>
@@ -135,11 +135,11 @@
       <div class="form-step">
         <div class="input-group">
           <label for="dob">Age</label>
-          <input type="number" name="age" id="dob" required>
+          <input type="number" name="age" id="age" required>
         </div>
         <div class="input-group">
           <label for="ID">Current Account Balance</label>
-          <select type="text" value="" name="ca_balance" class="select" id="ID" required>
+          <select type="text" value="" name="ca_balance" class="select" id="ca_balance" required>
             <option>Choose</option>
             <option>no current account</option>
             <option>less than 0</option>
@@ -151,7 +151,7 @@
         </div>
         <div class="input-group">
             <label for="ID">Saving Acoount Balance</label>
-            <select type="text" value="" name="sa_balance" class="select" id="ID" required>
+            <select type="text" value="" name="sa_balance" class="select" id="sa_balance" required>
               <option>Choose</option>
               <option>less than 100</option>
               <option>no savings account</option>
@@ -164,7 +164,7 @@
           </div>
           <div class="input-group">
             <label for="ID">Percentage of income paid as installment</label>
-            <input type="number" name="pi" id="ID" required>
+            <input type="number" name="pi" id="pi" required>
           </div>
         <div class="btns-group">
           <a href="#" class="btn btn-prev">Previous</a>
@@ -174,7 +174,7 @@
       <div class="form-step">
         <div class="input-group">
           <label for="password">Work Abroad</label>
-          <select type="text" value="" name="workab" class="select" id="password" required>
+          <select type="text" value="" name="workab" class="select" id="workab" required>
             <option>Choose</option>
             <option>Yes</option>
             <option>No</option>
@@ -183,7 +183,7 @@
         </div>
         <div class="input-group">
             <label for="password">Phone No</label>
-            <select type="text" value="" name="phn" class="select" id="password" required>
+            <select type="text" value="" name="phn" class="select" id="phn" required>
               <option>Choose</option>
               <option>Yes</option>
               <option>No</option>
@@ -192,12 +192,12 @@
           </div>
           <div class="input-group">
             <label for="password">Tenure</label>
-            <input type="number" name="tenure" id="password" required>
+            <input type="number" name="tenure" id="tenure" required>
           </div>
         <div class="input-group">
           <label for="confirmPassword">Property Type</label>
           
-          <select type="text" value="" name="prop" class="select" id="confirmPassword" required>
+          <select type="text" value="" name="prop" class="select" id="prop" required>
             <option>Choose</option>
             <option>Real Estate</option>
             <option>car or other property</option>
@@ -220,7 +220,7 @@
             <div class="input-group">
               <label for="password">JobType</label>
 
-              <select type="text" value="" name="jobType" class="select" id="password" required>
+              <select type="text" value="" name="jobType" class="select" id="jobType" required>
                 <option>Choose</option>
                 <option>skilled employee / official</option>
                 <option>unskilled - resident</option>
@@ -233,7 +233,7 @@
             </div>
                 <div class="input-group">
                   <label for="password">House Type</label>
-                  <select type="text" value="" name="houset" class="select" id="password" required>
+                  <select type="text" value="" name="houset" class="select" id="houset" required>
                     <option>Choose</option>
                     <option>own</option>
                     <option>for free</option>
@@ -244,7 +244,7 @@
                 </div>
                 <div class="input-group">
                   <label for="password">No of year of stay in current adress</label>
-                  <input type="number" name="noe" id="password" required>
+                  <input type="number" name="noe" id="noe" required>
                 </div>
 
         <div class="btns-group">
