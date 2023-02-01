@@ -184,6 +184,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 0.35rem;
     padding: 1.5rem;
+    margin-right: 95px;
   }
   .form-img img{
     width: 300px;
