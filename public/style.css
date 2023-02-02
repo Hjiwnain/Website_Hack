@@ -63,6 +63,7 @@ header h1 {
 .left {
   max-width: 45%;
   padding: 40px 64px;
+  margin-top: -183px;
 }
 
 .right {
@@ -112,6 +113,7 @@ button.cta:hover {
   .right img {
     width: 500px;
   }
+  
   header,
   .left,
   .right {
@@ -141,9 +143,11 @@ button.cta:hover {
       font-size: 0.8em;
   }
 
-  .left * {
+  .left  {
       width: 95%;
       margin-bottom: 32px;
+      margin-top: 0;
+
       text-align: center;
   }
 

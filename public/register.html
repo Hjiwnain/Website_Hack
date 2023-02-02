@@ -9,9 +9,12 @@
     <title>Loan Repayment</title>
   </head>
   <body>
+    <div class="container">
+      <div id="load"></div>
+  </div>
     <header>
-      <img src="./AILOEC.png" alt="" style="width: 139px;">
-  
+      <a href="/"><img src="./AILOEC.png" alt="" style="width: 139px;">
+      </a>  
   </header>
     <div class="form-img">
       <img src="./register.svg" alt="Langing image">
@@ -261,10 +264,35 @@
 
         <div class="btns-group">
           <a href="#" class="btn btn-prev">Previous</a>
-          <input type="submit" value="Predict" />
+          <input type="submit" value="Predict" onclick="loading();" />
         </div>
         
       </div>
     </form>
+   
+
+
+    
+
+
+  <script>
+
+    function loading(){
+      document.querySelector('.form').style.display = 'none';
+      document.querySelector('.form-img').style.display = 'none';
+      document.querySelector('.logo').style.display = 'none';
+
+
+      document.getElementById("load").classList.add("loader");
+
+      setTimeout(()=>{
+      document.getElementById(load).classList.remove('loader');
+
+
+      },3000);
+    }
+
+  </script>
+
   </body>
 </html>
