@@ -53,9 +53,11 @@ const data = {
     NOE:req.body.noe,
 
 
+    
+
 }
 console.log(data);
- const obj = await axios.post("https://mlapi-yigp.onrender.com/predict" ,JSON.stringify(data),
+ const obj = await axios.post("https://finmod-m7et.onrender.com/predict" ,JSON.stringify(data),
  {
     headers: {
     'Content-Type': 'application/json'
